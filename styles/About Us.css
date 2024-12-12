@@ -26,11 +26,6 @@ nav{
     margin-left: 50px;
     margin-top: 30px;
 }
-.ourlocation{
-    color: orange;
-    margin-top: 20px;
-    margin-left: 10px;
-}
 .pizzamission{
     margin-left: 20px;
 }
@@ -60,4 +55,21 @@ nav{
 body{
     background-color: bisque;
 }
+@media (max-width: 600px) {
+    .faqja2 {
+        text-align: center;
+    }
+    }
+    @media (max-width: 900px) {
+        .faqja2{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        }
+        @media (min-width: 901px) {
+            .faqja2 {
+                flex-direction: row;
+            }
+            }
+
 

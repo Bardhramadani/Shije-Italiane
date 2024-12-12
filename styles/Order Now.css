@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+.Logo{
+    width: 190px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.faqja4{
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 700px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 20%; 
+}
+body{
+    background-color: bisque;
+}
+.pizzatekst{
+    text-align: center;
+    margin-top: 20px;
+}
+.pizza{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    margin-top: 50px;
+}
+.Foto{
+    width: 160px;
+  
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+}
+button{
+    background-color: black;
+    color: white;
+}
+@media (max-width: 600px) {
+    .faqja4 {
+        text-align: center;
+    }
+    }
+    @media (max-width: 900px) {
+        .faqja4{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        }
+        @media (min-width: 901px) {
+            .faqja4 {
+                flex-direction: row;
+            }
+            }

@@ -73,5 +73,21 @@ nav{
 }
 body{
     background-color: bisque;
+    
 }
-
+@media (max-width: 600px) {
+    .faqja1 {
+        text-align: center;
+    }
+    }
+    @media (max-width: 900px) {
+        .faqja1{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        }
+        @media (min-width: 901px) {
+            .faqja1 {
+                flex-direction: row;
+            }
+            }

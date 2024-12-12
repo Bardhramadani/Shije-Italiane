@@ -52,3 +52,19 @@ nav{
 body{
     background-color: bisque;
 }
+@media (max-width: 600px) {
+    .faqja3{
+        text-align: center;
+    }
+    }
+    @media (max-width: 900px) {
+        .faqja3{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        }
+        @media (min-width: 901px) {
+            .faqja3{
+                flex-direction: row;
+            }
+            }

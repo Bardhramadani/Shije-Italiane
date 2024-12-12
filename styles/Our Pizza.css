@@ -1,0 +1,81 @@
+body{
+    background-color: bisque;
+}
+*{
+    margin: 0px;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+.Logo{
+    width: 190px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.faqja5{
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 700px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 20%; 
+}
+.h4{
+    color: orange;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.paragraf{
+    color: gray;
+    margin-left: 40px;
+}
+.Shija{
+    margin-left: 30px;
+}
+.Bardh{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.div1{
+    flex: 1;
+}
+.Foto{
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+.foto1{
+    margin-left: 10px;
+    height: 275px;
+    margin-bottom: 50px;
+}
+.foto2{
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+.foto3{
+    margin-left: 10px;
+    height: 275px;
+    width: 300px;
+    margin-bottom: 150px;
+}
+@media (max-width: 600px) {
+    .faqja5 {
+        text-align: center;
+    }
+    }
+    @media (max-width: 900px) {
+        .faqja5{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        }
+        @media (min-width: 901px) {
+            .faqja5 {
+                flex-direction: row;
+            }
+            }
