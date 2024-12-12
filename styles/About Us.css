@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+.Logo{
+    width: 190px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.faqja2{
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 700px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 20%; 
+}
+.ourstory{
+    color: orange;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.ourlocation{
+    color: orange;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pizzamission{
+    margin-left: 20px;
+}
+.story{
+    flex: 1;
+}
+.Bardh{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.paragraf{
+    margin-left: 30px;
+    gap: 10px;
+    color: gray;
+}
+.paragrafi{
+    margin-left: 50px;
+    color: gray;
+    margin-top: 10px;
+}
+.paragrafi1{
+    margin-top: 10px;
+    color: gray;
+    margin-left: 70px;
+}
+body{
+    background-color: bisque;
+}
+
